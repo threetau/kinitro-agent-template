@@ -1,12 +1,11 @@
 [project]
-name = "storb-rl-miner"
+name = "kinitro-agent"
 version = "0.0.1"
-description = "Storb RL Subnet Miner CLI"
+description = "Kinitro Agent"
 readme = "README.md"
 license = { file = "LICENSE" }
 requires-python = ">=3.13"
 dependencies = [
-    "fiber @ git+https://github.com/storb-tech/fiber.git#egg=fiber[chain]",
     "metaworld>=3.0.0",
     "torch>=2.8.0"
 ]
